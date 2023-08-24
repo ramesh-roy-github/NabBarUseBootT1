@@ -1,0 +1,23 @@
+#a2{
+    display: flex;
+    background-color: #32AEB1;
+    padding-bottom: 5px;
+}
+#hovr{
+    color:white;border: 2px solid white; background-color: #32AEB1; 
+        
+}
+#hovr:hover{
+    background-color:#036c6e;
+}
+
+@media screen and (min-width: 797px) {
+    #a2{
+        display: none;
+    }
+}
+@media screen and (max-width: 798px){
+    #a1{
+        display: none;
+    }
+}
